@@ -49,7 +49,7 @@ form fieldset input {
 }
 
 table {
-	border: 1px solid black;
+	border: 1px solid black; 
 }
 
 table th {
@@ -60,4 +60,8 @@ table th {
 table td {
 	border: 1px solid black;
 	padding: 5px;
+}
+
+.update_button {
+	border: none;
 }

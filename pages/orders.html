@@ -23,5 +23,66 @@
 			<h3>Orders</h3>
 		</div>
 
+		<table>
+			<thead>
+				<tr>
+					<th>order_id</th>
+					<th>customer_id</th>
+					<th>order_placed</th>
+					<th>total_due</th>
+					<th>payment_method</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>2</td>
+					<td>10/24/2020</td>
+					<td>$24.97</td>
+					<td>0</td>
+					<td class="update_button"><button type="button">Update</button></td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>2</td>
+					<td>10/25/2020</td>
+					<td>$36.21</td>
+					<td>0</td>
+					<td class="update_button"><button type="button">Update</button></td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>1</td>
+					<td>10/31/2020</td>
+					<td>$85.44</td>
+					<td>1</td>
+					<td class="update_button"><button type="button">Update</button></td>
+				</tr>
+			</tbody>
+		</table>
+
+		<form>
+			<h3>Place new order here: </h3>
+			<fieldset>
+				<label>Customer ID</label>
+				<input type="number" name="customer_id" id="customer_id" maxlength="100">
+				<br>
+				<label>Order Placed</label>
+				<input type="date" name="order_placed" id="order_placed" maxlength="100">
+				<br>
+				<label>Total Due</label>
+				<input type="number" name="total_due" id="total_due" maxlength="100">
+				<br>
+				<label>Payment Method</label>
+				<input type="radio" name="payment_method" id="paypal" maxlength="100" value="paypal">
+				<label for="paypal">PayPal</label>
+				<input type="radio" name="payment_method" id="credit_card" maxlength="100" value="credit_card">
+				<label for="credit_card">Credit Card</label>
+				<br>
+
+				<input type="submit" name="register_submit" id="register_submit" value="Register">
+			</fieldset>
+		</form>
+
 	</body>
 </html>

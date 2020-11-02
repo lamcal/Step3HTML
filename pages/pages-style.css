@@ -48,6 +48,15 @@ form fieldset input {
 	box-sizing: border-box;
 }
 
+form fieldset input[type="radio"] {
+	width: 20px;
+	height: 14px;
+	padding: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
+
 table {
 	border: 1px solid black; 
 }
@@ -63,5 +72,9 @@ table td {
 }
 
 .update_button {
+	border: none;
+}
+
+.delete_button {
 	border: none;
 }

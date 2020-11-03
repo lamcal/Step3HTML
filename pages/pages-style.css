@@ -71,6 +71,14 @@ table td {
 	padding: 5px;
 }
 
+.search input {
+	width: 150px;
+	height: 25px;
+	padding: 0px;
+	margin: 5px;
+	box-sizing: border-box;
+}
+
 .update_button {
 	border: none;
 }

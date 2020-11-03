@@ -1,0 +1,65 @@
+The following document lists information for each each of the pages accesable through the Base'ic store index.html("home page"). The information provided includes the purpose of the page,
+ a brief description of the layout and functionality of the page, and a list ideas for improving the page through improvements or additions to the layout and functionality.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+===Customers.html===
+Purpose: To allow for the viewing, addition, or updating of Customer entity ("account") information.
+	
+Description:
+	Customers.html includes two main sections to the page that interact. The first is a table listing customer entities and the corresponding information, and are organized in decending
+order by customer id. Each customer row has a button labeled "Update" on the right side of the table. These buttons can be used in tandem with text entry fields found lower on the page in order
+to update the corresponding row.
+	The second section is a series of text entry boxes, whith one corresponding to each of the customer entity attributes. Below these text fields is a button labeled "Register". If text is
+entered into the text entry fields and the "Register" button is pressed, a new row will be added to the Customers table. This new row will contain the information entered into the text fields.
+If, instead of pressing the "Register" button, one of the "Update" buttons is pressed then the corresponding row of the Customers table will be changed to reflect the entered information.
+
+Improvement Ideas:
+*-Add a method of removing rows from the Customer entity table. This could be needed if an entry is added by mistake, but we could probably do without it.
+*-Since the Customers table will grow, should the registration section be above it to keep users from having to scroll to the bottom?
+-(Javascript) Add error when either update or register is used to handel for bad or missing attributes.
+-(Javascript and html?)Add checkbox that will allow for rows to be comepletely or partially rewritten when the update button is pressed. IE. If fields are left blank, then the existing attribute
+will be blank.
+-(Javascript)Allow for the sorting of the customers in accending or decending order based on any of the attiributes, with potentially the exception of the password attribute.
+-(Javascript)Allow for the filtering of rows based on given specifications.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+===Orders.html===
+Purpose:
+
+Description:
+
+Improvement Ideas:
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+===Products.html===
+Purpose:
+
+Description:
+
+Improvement Ideas:
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+===Deliveries.html===
+Purpose:
+
+Description:
+
+Improvement Ideas:
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+===Suppliers.html===
+Purpose:
+
+Description:
+
+Improvement Ideas:
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+===Order_Products.html===
+Purpose:
+
+Description:
+
+Improvement Ideas:
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
